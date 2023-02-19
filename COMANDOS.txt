@@ -1,0 +1,15 @@
+ENTRAR E DEFINIR ACESSO ROOT:
+
+sudo -i
+bash <(wget -qO- )
+
+
+ABRIR PORTAS SERVER ORACLE:
+
+sudo apt-get update
+sudo apt install firewalld 
+sudo firewall-cmd --zone=public --permanent --add-port=PORTA/tcp 
+sudo firewall-cmd --reload 
+ sudo firewall-cmd --zone=public --list-ports
+
+firewall-cmd --zone=public --permanent  --remove-port=Porta/tcp
