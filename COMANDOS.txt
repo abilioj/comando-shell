@@ -1,7 +1,7 @@
 ENTRAR E DEFINIR ACESSO ROOT:
 
 sudo -i
-bash <(wget -qO- )
+bash <(wget -qO- https://raw.githubusercontent.com/abilioj/comando-shell/main/senharoot.sh)
 
 
 ABRIR PORTAS SERVER ORACLE:
